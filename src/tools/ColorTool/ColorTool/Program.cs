@@ -125,7 +125,7 @@ namespace ColorTool
         }
 
         /// <summary>
-        /// Returns an enumerable of consoles that we want to apply the color scheme to.
+        /// Returns an enumerable of consoles that we want to apply the colorscheme to.
         /// The contents of this enumerable depends on the user's provided command line flags.
         /// </summary>
         private static IEnumerable<IConsoleTarget> GetConsoleTargets()
